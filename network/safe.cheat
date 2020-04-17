@@ -2,3 +2,13 @@
 
 #enter the SAFE CLI environment
 safe
+
+#check for and install updates to the SAFE CLI
+safe update
+
+#Get help on the SAFE CLI and its subcommands
+safe -h
+
+#Print version information
+safe -V
+

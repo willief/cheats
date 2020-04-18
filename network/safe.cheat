@@ -33,3 +33,10 @@ safe auth create-acc -h
 
 # Create a new account and request test coins
 safe auth create-acc --test-coins
+
+
+
+$ path: ls
+$ tar_file: ls *.tar
+$ targz_file: ls *.tar.gz
+$ gz_file: ls *.gz

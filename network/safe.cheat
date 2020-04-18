@@ -12,3 +12,11 @@ safe -h
 #Print version information
 safe -V
 
+#Get help on the auth subcommand
+safe auth --help
+
+#Send request to a remote Authenticator daemon to allow an authorisation request
+safe auth allow 
+
+#Send request to a remote Authenticator daemon to retrieve the list of the authorised applications
+safe auth apps

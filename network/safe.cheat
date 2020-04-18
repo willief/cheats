@@ -21,3 +21,15 @@ safe auth allow
 
 # Send request to a remote Authenticator daemon to retrieve the list of the authorised applications
 safe auth apps
+
+# Clear SAFE CLI authorisation credentials from local file
+safe auth clear
+
+# Send request to a remote Authenticator daemon to create a new SAFE account
+safe auth create-acc 
+
+# Get options for the safe auth create-acc command
+safe auth create-acc -h
+
+# Create a new account and request test coins
+safe auth create-acc --test-coins

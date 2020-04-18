@@ -1,4 +1,4 @@
-% SAFE network
+% SAFE network, network
 ; Cheat sheet for the SAFE network CLI     https://github.com/maidsafe/safe-api
 
 # enter the SAFE CLI environment
@@ -25,6 +25,9 @@ safe auth apps
 # Clear SAFE CLI authorisation credentials from local file
 safe auth clear
 
+# Get the auth status of the current user
+safe auth status
+
 # Send request to a remote Authenticator daemon to create a new SAFE account
 safe auth create-acc 
 
@@ -34,7 +37,8 @@ safe auth create-acc -h
 # Create a new account and request test coins
 safe auth create-acc --test-coins
 
-
+# Put files to the network
+safe files put <file-to upload>
 
 $ path: ls
 $ tar_file: ls *.tar

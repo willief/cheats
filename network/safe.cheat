@@ -1,22 +1,22 @@
 % Cheat sheet for the SAFE network CLI     https://github.com/maidsafe/safe-api
 
-#enter the SAFE CLI environment
+# enter the SAFE CLI environment
 safe
 
-#check for and install updates to the SAFE CLI
+# check for and install updates to the SAFE CLI
 safe update
 
-#Get help on the SAFE CLI and its subcommands
+# Get help on the SAFE CLI and its subcommands
 safe -h
 
-#Print version information
+# Print version information
 safe -V
 
-#Get help on the auth subcommand
+# Get help on the auth subcommand
 safe auth --help
 
-#Send request to a remote Authenticator daemon to allow an authorisation request
+# Send request to a remote Authenticator daemon to allow an authorisation request
 safe auth allow 
 
-#Send request to a remote Authenticator daemon to retrieve the list of the authorised applications
+# Send request to a remote Authenticator daemon to retrieve the list of the authorised applications
 safe auth apps
